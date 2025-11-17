@@ -6,7 +6,7 @@ export default function Contact(){
     <div className="bg-black text-white">
       <section className="pt-24 pb-8 max-w-6xl mx-auto px-6">
         <motion.h1 initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} className="text-4xl font-extrabold">Contact Us</motion.h1>
-        <p className="mt-2 text-white/80">Wed love to help. Reach out or stop by.</p>
+        <p className="mt-2 text-white/80">We’d love to help. Reach out or stop by.</p>
       </section>
 
       <section className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-8 pb-16">
