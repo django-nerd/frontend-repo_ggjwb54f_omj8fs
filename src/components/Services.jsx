@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Package, Truck, Mail, Printer, Fax, ScanLine, Stamp, Shirt, BadgeDollarSign, CreditCard, Box, Ruler } from 'lucide-react'
+import { Package, Truck, Mail, Printer, Fax, Scan, Stamp, Shirt, CreditCard, Box, Ruler } from 'lucide-react'
 
 const services = [
   {
@@ -47,7 +47,7 @@ const services = [
     ],
   },
   {
-    icon: ScanLine,
+    icon: Scan,
     title: 'Document Scanning',
     items: [
       'Email, USB, or PDF output',
